@@ -1,0 +1,100 @@
+https://codepen.io/discustindustin/pen/MWwGeNz?editors=1100
+
+1. What is Semantic HTML? 
+	HTML that itroduces meaning to the webpage rather than just presentation, meaning it is the universally understood and agreed upon
+	element names to make an ease of transistion for different projects and users.
+    2. What is HTML used for?
+	 Inserting the text and some style to your webpage.
+    3. What is an attribute and where do we put it? 
+	A modifier to an element type, such as classes and IDs
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	It is used for the headline and should only be used once.
+    5. Name two tags that have required attributes
+	img and a tags
+    6. What do we put in the head of our HTML document? 
+	All of the meta data. its usually already in there and i havent changed anything in it.
+    7. What is an id? 
+	It renders a unique identification for an HTML element that is customizable through css.
+    8. What elements can I add an id to? 
+	All of them
+    9. How many times can I use the same id on a page? 
+	Once.
+    10. What is a class? 
+	A class is an identifier that you can add to customixe multiple elements.
+    11. What elements can I add a class to? 
+	Any, as long as they are the same type of element in the class. 
+    12. How many times can I use the same class on a page? 
+	As many times as you want.
+    13. How do I get my link to open in a new tab?
+	Add an anchor tag with a target="_blank".
+    14. What is the alt attribute used for? 
+	It presents text to the user if, for some reason, the image will not load.
+    15. How do I reference an id?
+	in css use the # indentifier.
+    16. What is the difference between a section and a div
+	section is more semantic and should be used for sectioning out parts of your document, while div is more generic
+	and couple be used a little more freely.
+    17. What is CSS used for? 
+	Styling your webpage with color, functionality, and design.
+    18. How to we select an element? Example - every h2 on the page
+	in css write the element name and use {}. example h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	a class groups multiple elements together to modify them, while an id selects one specific element to mody only that one.
+	if you want every paragraph in your document to have a blue background you could easliy add them all into the same class
+	with a blue background, if you then wanted only one of those paragraphs to have colored text you would add an id to that
+	paragraph and make the id is css changing the font color.
+    20. How do we select classes in CSS?
+	You need to use the ."class name" format.
+    21. How do we select a p element with a single class of �human��?
+	in CSS you would write .human{}
+    22. What is a parent child selector? When would this be useful? 
+	parent child selector refers to the relationships of elements nesting in other elements. it is useful to know when you are trying to modify your css
+	when you modify the parent the child is modified, but NOT vise-versa.
+    23. How do you select all links within a div with the class of sidebar?
+	div links class = sidebar
+    24. What is a pseudo selector?
+	It specifies a special state of the selected element. e.g. hover or color changes
+    25. What do we use the change the spacing between lines?
+	line-height
+    26. What do we use to change the spacing between letters?
+	letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: uppercase,lowercase, capitalize
+    28. How do I add a 1px border around my div that is dotted and black?
+	div{ 
+	border:1px dotted black;}
+    29. How do I select everything on the page? 
+	universal selector *
+    30. How do I write a comment in CSS?
+	//use backslashes to comment it out//
+    31. How do I find out what file I am in, when I am using the command line? 
+	type ls
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	type ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	type rm "filename". there is not a warning, and once you delete it it is permanently deleted.
+    34. Why should I use version control? 
+	you can save and see changes of your documents.
+    35. How often should I commit to github?
+	Usually after completion of each section, or once every few hours.
+    36. What is the command we would use to push our repo up to github? 
+	git push origin 'dustin-tiner'
+    37. Walk me through Lambda's git flow. 
+	it starts with one original document, each student has the ability to download the document and work on it individually, all these changes are saved 
+	throught each persons branch and can be brought back together in github. 
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	A block element always starts on a new line and covers fully from left to right, an inline element does not start
+	on a new line and covers the least amount of space necessary.
+    2. What happens when an element is positioned absolutely? 
+	The element will not move accordingly fit to the size of the page.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	Use an element that noes not start a new line or fill as much as possible, put it in a class or ID that can 
+	modify the width.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	div,p,ul are ll display block, span and img are display inline, and button is inline block by default.
+    5. In your own words, explain the box model. What is the fix for the box model? 
+	the box model uses things like margin, padding,length and with as a way to position and style the contents on your page page. it will literally treat 
+	your contet as a box in which you can color, add a buffer from the outside of your box and your content, and move
+	your box away from the edges of your webpage.
